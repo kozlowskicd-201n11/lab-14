@@ -45,3 +45,5 @@ There's nothing really new here, just extensions and adaptations of previous thi
 1. You and your partner should plan out how you want to collaboratively attack the problem with regards to pair programming. It's up to you how the details are managed, but make sure each partner makes contributions in each of CSS and JS files.
 
 ### *Remember to submit a link to your last pull request on Canvas!*
+
+Pair Partner with Harry Hayden.
