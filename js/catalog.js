@@ -36,6 +36,7 @@ function handleSubmit(event) {
 
 // TODO: Add the selected item and quantity to the cart
 function addSelectedItemToCart() {
+
     // TODO: suss out the item picked from the select list
     // TODO: get the quantity
     // TODO: using those, add one item to the Cart
@@ -47,6 +48,7 @@ function updateCounter() {
     countEl.textContent = Cart.length;
     var navEl = document.getElementsByTagName('nav')
     navEl.appendChild(countEl);
+    
 }
 
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
