@@ -12,16 +12,18 @@ function populateForm() {
     //TODO: Add an <option> tag inside the form's select for each product
     var selectElement = document.getElementById('items');
     for (var i in Product.allProducts) {
-
+        var optEl = document.createElement('option');
+        optEl.textContent = Product.allProducts[i].name;
+        selectElement.appendChild(optEl);
     }
-
+   
 }
 
 // When someone submits the form, we need to add the selected item to the cart
 // object, save the whole thing back to local storage and update the screen
 // so that it shows the # of items in the cart and a quick preview of the cart itself.
 function handleSubmit(event) {
-
+    event.preventDefault();
     // TODO: Prevent the page from reloading
 
     // Do all the things ...
@@ -40,7 +42,12 @@ function addSelectedItemToCart() {
 }
 
 // TODO: Update the cart count in the header nav with the number of items in the Cart
-function updateCounter() {}
+function updateCounter() {
+    var countEl = document.getElementById('itemCount');
+    countEl.textContent = Cart.length;
+    var navEl = document.getElementsByTagName('nav')
+    navEl.appendChild(countEl);
+}
 
 // TODO: As you add items into the cart, show them (item & quantity) in the cart preview div
 function updateCartPreview() {
