@@ -46,4 +46,8 @@ There's nothing really new here, just extensions and adaptations of previous thi
 
 ### *Remember to submit a link to your last pull request on Canvas!*
 
+<<<<<<< HEAD
 Pairing with Chris Kozlowski 06162016
+=======
+Pair Partner with Harry Hayden.
+>>>>>>> 3b20b36cd3d09459f2d9c5221afcb3d0aadc0166
