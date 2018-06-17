@@ -1,3 +1,5 @@
+//chris to work on catalog
+
 /* global Product, Cart */
 
 'use strict';

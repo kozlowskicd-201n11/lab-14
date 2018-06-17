@@ -1,3 +1,5 @@
+//harry finish up on remove
+
 'use strict';
 
 // Cart constructor.
@@ -20,6 +22,7 @@ Cart.prototype.saveToLocalStorage = function () {
 };
 
 Cart.prototype.removeItem = function (item) {
+    //harry to do
     // TODO: Fill in this instance method to remove one item from the cart.
     // Note: You will have to decide what kind of parameter to pass in here!
 
